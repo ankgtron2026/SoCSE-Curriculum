@@ -4,8 +4,6 @@
 
 ## B. Tech – Computer Science and Information Technology
 
-<!-- Programme title restored during cleanup; the source export omitted the banner. Confirm the exact official programme name. -->
-
 <table style="width:25%;">
 <colgroup>
 <col style="width: 1%" />

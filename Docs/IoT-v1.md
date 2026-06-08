@@ -4,8 +4,6 @@
 
 ## B. Tech – Internet of Things and Cyber Security (Including Blockchain Technology)
 
-<!-- Programme title restored during cleanup; the source export omitted the banner. Confirm the exact official programme name. -->
-
 <table style="width:25%;">
 <colgroup>
 <col style="width: 1%" />
