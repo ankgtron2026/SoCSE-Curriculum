@@ -75,7 +75,8 @@ This course introduces students to full-stack web application development using 
 
 - Introduce modern front-end and back-end web development tools and workflows.
 - Enable students to develop, test, and deploy a basic full-stack web application.
-- Build skills in application design, debugging, and quality assurance for web systems.
+- Build skills in application implementation, debugging, and quality assurance for web systems.
+- Foster teamwork, documentation practices, and presentation skills through a capstone demo project.
 
 ---
 
@@ -83,12 +84,12 @@ This course introduces students to full-stack web application development using 
 
 | CO# | Course outcome | Level (Awareness / Advanced / Both) 🔵 | POs | PSOs |
 |---|---|---|---|---|
-| CO1 | Explain the structure and lifecycle of modern web applications | Awareness | PO1, PO2 | PSO1 |
-| CO2 | Create responsive front-end pages using HTML, CSS and JavaScript | Both | PO2, PO3 | PSO1 |
-| CO3 | Develop a RESTful backend using Node.js and Express | Both | PO3, PO5 | PSO2 |
-| CO4 | Integrate a database and implement CRUD operations securely | Both | PO3, PO4 | PSO2 |
-| CO5 | Deploy a web application and evaluate its performance and security | Advanced | PO5, PO9 | PSO2 |
-| CO6 | Design and deliver a working full-stack mini-project with teamwork | Advanced | PO9, PO10, PO11 | PSO1 |
+| CO1 | Identify the fundamental HTML, CSS, JavaScript, Node.js, and Express components used in web application development | Awareness | PO1, PO2 | PSO1 |
+| CO2 | Construct responsive web pages using HTML and CSS based on given design requirements | Awareness | PO2, PO3 | PSO1 |
+| CO3 | Implement client-side interactivity and form validation using JavaScript | Both | PO2, PO3 | PSO1 |
+| CO4 | Develop server-side applications and RESTful APIs using Node.js and Express | Both | PO3, PO5 | PSO2 |
+| CO5 | Test client–server communication by performing CRUD operations using temporary or file-based data storage | Both | PO3, PO4 | PSO2 |
+| CO6 | Develop a beginner-level full-stack web application by integrating front-end and backend components as a mini-project | Both | PO3, PO5, PO10 | PSO1 |
 
 ---
 
@@ -106,54 +107,55 @@ This course introduces students to full-stack web application development using 
 **Textbook(s):**
 - John Duckett, "Web Development with HTML, CSS, JavaScript"
 - Ethan Brown, "Web Development with Node and Express"
+- Robert W. Sebesta, "Programming the World Wide Web", 7th Edition, Pearson, 2013
+- Thomas A. Powell, "The Complete Reference: HTML and CSS" (latest edition)
 
 **References:**
 - Robin Nixon, "Learning PHP, MySQL & JavaScript"
 - Kyle Simpson, "You Don’t Know JS" (selected chapters)
 
 **Web / e-books / NPTEL:**
+- Coursera: "Introduction to Web Development with HTML, CSS, JavaScript"
+- W3Schools / GeeksforGeeks tutorials for quick reference
 - MDN Web Docs: HTML/CSS/JavaScript
 - Node.js official docs
 - freeCodeCamp responsive web design and APIs sections
-- W3Schools / GeeksforGeeks tutorials for quick reference
 
 ---
 
 ## 8. 🔵 Differentiated instruction (mapped to the two levels)
 
 **Reaching the floor (awareness level) - for students at risk:**
-- Remedial lab clinics after IA tests for HTML/CSS, JavaScript, and backend fundamentals.
-- Worked examples and guided templates for page layout, DOM scripting, and API request handling.
-- Peer mentoring groups that pair learners with stronger students during lab tasks.
-- Curated micro-tutorials and checklists for debugging browser and server errors.
+- Step-by-step guided lab sheets with sample code and checkpoints for each hands-on activity.
+- Starter templates for HTML, CSS, JavaScript, and Node.js exercises to reduce syntax-related difficulties.
+- Debugging checklists to help students identify and correct common HTML, CSS, JavaScript, and Node.js errors.
 
 **Reaching the ceiling (advanced level) - for students aiming above 8 CGPA:**
 - Optional advanced mini-project extensions such as role-based access, search filters, or real-time updates.
 - Stretch tasks that require building custom UI components, designing API contracts, and applying caching or lazy loading.
-- Paper review of modern web architecture patterns (Jamstack, microservices, serverless) with a short reflective report.
 - Self-directed exploration of deployment pipelines, containerization, or progressive web app features.
 
 ---
 
 ## 9. Session activities and artifacts 🟢
 
-This is a 0-0-2 workshop-style course. Every lab session includes a practical task, a submission artifact, and a short formative check.
+This is a 0-0-2 workshop-style course. Every lab session includes a practical task and a submission artifact.
 
 | Session | Focus | Activity & artifact | Assessment evidence | COs |
 |---|---|---|---|---|
 | 1 | Project setup, architecture, Git | Initialise project repository and define app wireframe | GitHub repo with README and wireframe plan | CO1 |
 | 2 | HTML semantics and layout | Build semantic page structure for the app UI | HTML template and markup checklist | CO2 |
 | 3 | Responsive CSS and styling | Implement responsive layout using CSS/Flexbox | styled responsive homepage | CO2 |
-| 4 | JavaScript fundamentals | Add interactive DOM behaviour and validation | demo of dynamic form interaction | CO2 |
-| 5 | Client-side UI flow | Build client-side state for page interaction | working UI components for form and navigation | CO2 |
-| 6 | Advanced front-end task | Create reusable UI modules and client-side logic | extended UI module artifact | CO2 |
-| 7 | Node.js / Express server | Create server routes and request handling | Express server with base routes | CO3 |
-| 8 | REST API design | Build API endpoints for app data | documented REST endpoints + working API | CO3 |
-| 9 | Authentication / security | Implement login/auth middleware | secure route demo and auth flow | CO3 |
-| 10 | Database design & CRUD | Connect database and persist data | database schema + CRUD operations | CO4 |
-| 11 | Frontend-backend integration | Connect app UI to backend APIs | integrated app demo with live data flow | CO4 |
-| 12 | Deployment prep | Prepare app for deployment and environment config | deployment-ready codebase and config | CO5 |
-| 13 | Performance & security review | Audit app for performance and security | review report and applied fixes | CO5 |
+| 4 | JavaScript fundamentals | Add interactive DOM behaviour and validation | demo of dynamic form interaction | CO3 |
+| 5 | Client-side UI flow | Build client-side state for page interaction | working UI components for form and navigation | CO3 |
+| 6 | Advanced front-end task | Create reusable UI modules and client-side logic | extended UI module artifact | CO2, CO3 |
+| 7 | Node.js / Express server | Create server routes and request handling | Express server with base routes | CO4 |
+| 8 | REST API design | Build API endpoints for app data | documented REST endpoints + working API | CO4 |
+| 9 | Authentication / security | Implement login/auth middleware | secure route demo and auth flow | CO4 |
+| 10 | Database design & CRUD | Connect database and persist data | database schema + CRUD operations | CO5 |
+| 11 | Frontend-backend integration | Connect app UI to backend APIs | integrated app demo with live data flow | CO5 |
+| 12 | Deployment prep | Prepare app for deployment and environment config | deployment-ready codebase and config | CO6 |
+| 13 | Performance & security review | Audit app for performance and security | review report and applied fixes | CO6 |
 | 14 | Capstone demo | Final project demo and presentation | deployed app + project report | CO6 |
 
 > Each session includes a short formative quiz or checklist aligned to the session task.
@@ -177,16 +179,16 @@ This is a 0-0-2 workshop-style course. Every lab session includes a practical ta
 | 01 | Week 1 | | Unit 1 - Web application architecture and HTTP | Problem-centred + Activation | Introduce motivating full-stack use case; lecture + browser devtools demo | 7% | A | CO1 | |
 | 02 | Week 2 | | Unit 1 - HTML structure and semantic markup | Demonstration | Live walkthrough of page structure and accessible markup | 14% | A | CO2 | |
 | 03 | Week 3 | | Unit 1 - CSS layout, flexbox and responsive design | Application | Guided lab building a responsive landing page | 21% | A | CO2 | |
-| 04 | Week 4 | | Unit 2 - JavaScript syntax, variables, and functions | Activation | Recap of programming concepts; demo of DOM scripting | 28% | A | CO2 | |
-| 05 | Week 5 | | Unit 2 - DOM manipulation and event handling | Application | In-class exercise: dynamic form and interactive components | 35% | A | CO2 | |
-| 06 | Week 6 | | Unit 2 - Advanced client-side behaviour and state | Integration | Stretch task: design and implement reusable UI modules | 42% | Adv | CO2 | |
-| 07 | Week 7 | | Unit 3 - Server fundamentals, Node.js, and Express | Activation | Code-along: create a server and route handler | 49% | A | CO3 | |
-| 08 | Week 8 | | Unit 3 - REST API design and middleware | Demonstration | Build an API endpoint with validation and error handling | 56% | A | CO3 | |
-| 09 | Week 9 | | Unit 3 - Authentication and secure routing | Application | Guided lab: add login/session flow to backend | 63% | Adv | CO3 | |
-| 10 | Week 10 | | Unit 4 - Database modelling and CRUD integration | Activation | Demo database schema design and query patterns | 70% | A | CO4 | |
-| 11 | Week 11 | | Unit 4 - Frontend-backend integration | Application | In-class integration of form submission and API consumption | 77% | Adv | CO4 | |
-| 12 | Week 12 | | Unit 4 - Deployment, hosting and CI/CD basics | Demonstration | Deploy sample app to cloud platform and show build pipeline | 84% | Adv | CO5 | |
-| 13 | Week 13 | | Unit 4 - Performance and security review | Integration | Peer review of project code with security/performance checklist | 91% | Adv | CO5 | |
+| 04 | Week 4 | | Unit 2 - JavaScript syntax, variables, and functions | Activation | Recap of programming concepts; demo of DOM scripting | 28% | A | CO3 | |
+| 05 | Week 5 | | Unit 2 - DOM manipulation and event handling | Application | In-class exercise: dynamic form and interactive components | 35% | A | CO3 | |
+| 06 | Week 6 | | Unit 2 - Advanced client-side behaviour and state | Integration | Stretch task: design and implement reusable UI modules | 42% | Adv | CO3 | |
+| 07 | Week 7 | | Unit 3 - Server fundamentals, Node.js, and Express | Activation | Code-along: create a server and route handler | 49% | A | CO4 | |
+| 08 | Week 8 | | Unit 3 - REST API design and middleware | Demonstration | Build an API endpoint with validation and error handling | 56% | A | CO4 | |
+| 09 | Week 9 | | Unit 3 - Authentication and secure routing | Application | Guided lab: add login/session flow to backend | 63% | Adv | CO4 | |
+| 10 | Week 10 | | Unit 4 - Database modelling and CRUD integration | Activation | Demo database schema design and query patterns | 70% | A | CO5 | |
+| 11 | Week 11 | | Unit 4 - Frontend-backend integration | Application | In-class integration of form submission and API consumption | 77% | Adv | CO5 | |
+| 12 | Week 12 | | Unit 4 - Deployment, hosting and CI/CD basics | Demonstration | Deploy sample app to cloud platform and show build pipeline | 84% | Adv | CO6 | |
+| 13 | Week 13 | | Unit 4 - Performance and security review | Integration | Peer review of project code with security/performance checklist | 91% | Adv | CO6 | |
 | 14 | Week 14 | | Unit 4 - Capstone demo and revision | Integration | Student mini-project demonstrations and reflective discussion | 100% | Adv | CO6 | |
 
 > 🔵 The Level column shows where advanced-level content is actually taught. This plan includes dedicated advanced activities in Units 2-4, so the ceiling is taught and not only assessed.
@@ -215,7 +217,7 @@ Plagiarism in any evaluation component leads to zero marks. Students must submit
 
 | Sl | Component | Marks | Weight % | Format | COs |
 |---|---|---|---|---|---|
-| 1 | Continuous workshop activities | 50 | 50 | 14 lab-session tasks + formative checks | CO1–CO5 |
+| 1 | Continuous workshop activities- Lab progress checkpoints/ Quiz | 50 | 50 | 14 lab-session tasks + formative checks | CO1–CO6 |
 | 2 | Final project / hackathon (SEE) | 50 | 50 | Deployed demo + project report + presentation | CO1–CO6 |
 | **Total** | | **100** | **100%** | | |
 
@@ -307,11 +309,11 @@ Plagiarism in any evaluation component leads to zero marks. Students must submit
 | CO | IA1 | IA2 | A1 | A2 | SEE | Direct attainment | Level (A/Adv) 🔵 |
 |---|---|---|---|---|---|---|---|
 | CO1 | | | | | | | Awareness |
-| CO2 | | | | | | | Both |
+| CO2 | | | | | | | Awareness |
 | CO3 | | | | | | | Both |
 | CO4 | | | | | | | Both |
-| CO5 | | | | | | | Advanced |
-| CO6 | | | | | | | Advanced |
+| CO5 | | | | | | | Both |
+| CO6 | | | | | | | Both |
 
 > 🔵 Report advanced-level attainment separately to verify the ceiling is working.
 
@@ -321,18 +323,18 @@ Plagiarism in any evaluation component leads to zero marks. Students must submit
 
 | CO | PO1 | PO2 | PO3 | PO4 | PO5 | PO6 | PO7 | PO8 | PO9 | PO10 | PO11 | PO12 | PSO1 | PSO2 | PSO3 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| CO1 | 3 | 2 | 2 | 1 | 1 | | | | | 1 | | | 3 | 1 | |
-| CO2 | 2 | 3 | 3 | 2 | 1 | | | | 1 | 2 | | | 3 | 1 | |
-| CO3 | 1 | 2 | 3 | 2 | 2 | | | | 1 | 1 | | | 2 | 3 | |
-| CO4 | 1 | 1 | 3 | 2 | 2 | | | | 1 | 1 | | | 2 | 3 | |
-| CO5 | 1 | 1 | 2 | 1 | 3 | | | | 2 | 1 | | | 1 | 3 | |
-| CO6 | 1 | 1 | 2 | 1 | 2 | | | | 3 | 3 | 2 | | 2 | 2 | |
+| CO1 | 3 | 3 | | | | | | | | | | | 3 | | |
+| CO2 | | 3 | 3 | | | | | | | | | | 3 | | |
+| CO3 | | 3 | 3 | | | | | | | | | | 3 | | |
+| CO4 | | | 3 | | 3 | | | | | | | | | 3 | |
+| CO5 | | | 3 | 3 | | | | | | | | | | 3 | |
+| CO6 | | | 3 | | 3 | | | | | 3 | | | 3 | | |
 
 **Overall attainment** (Direct 80% + Indirect/Feedback 20%):
 
 | | Internal | External | Grand total (80%+20%) |
 |---|---|---|---|
-| CO attainment | | | |
+| CO1–CO6 attainment | | | |
 
 ---
 
